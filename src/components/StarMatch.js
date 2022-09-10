@@ -1,8 +1,8 @@
-import React from "react";
+import {React, useState} from "react";
 import { utils } from "../utils/utils";
 
 const StarMatch = () => {
-    const stars = utils.random(1, 9);
+    const [stars, setStars] = useState(utils.random(1, 9));
     const buttons = 9;
 
     return (
