@@ -2,7 +2,7 @@ import React from "react";
 import { utils } from "../utils/utils";
 
 const StarMatch = () => {
-    const stars = 6;
+    const stars = utils.random(1, 9);
     const buttons = 9;
 
     return (
